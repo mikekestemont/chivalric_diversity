@@ -1,0 +1,60 @@
+# Matplotlib style for general scientific plots
+
+# Set color cycle
+axes.prop_cycle : cycler('color', ['56B4E9', 'E69F00', '999999', '009E73', 'F0E442', '0072B2', 'D55E00', 'CC79A7'])
+
+# Set default figure size
+figure.figsize : 8, 6
+figure.dpi : 300 
+
+# Axis config
+axes.grid : False
+axes.spines.top : False
+axes.spines.right : False
+axes.titlesize : x-large
+axes.labelsize : large
+axes.labelpad : 12.0
+axes.titlepad : 24.0
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.visible : False
+xtick.top : False
+xtick.major.pad : 6
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.visible : False
+ytick.right : False
+ytick.major.pad : 6
+
+# Set line widths
+axes.linewidth : 1
+grid.linewidth : 0.5
+lines.linewidth : 2
+lines.markersize : 8
+
+# Remove legend frame
+legend.frameon : False
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+savefig.dpi : 300
+
+patch.facecolor : C0
+boxplot.patchartist : True
+boxplot.meanprops.color : black
+boxplot.medianprops.color : black
+
+# Use serif fonts
+font.family : serif
+font.sans-serif : Lora, Gentium Plus, Palatino, Times New Roman
+font.size : 12.0
+
+# Use LaTeX for math formatting
+text.usetex : true
