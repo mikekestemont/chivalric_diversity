@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3701587.svg)](https://zenodo.org/record/3701587)
+
 # The Atlantis of Middle Dutch Chivalric Epics
 ## An estimation of the text loss using methods from ecodiversity
 
