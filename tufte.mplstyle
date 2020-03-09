@@ -1,0 +1,36 @@
+lines.linewidth: 1.5
+lines.markerfacecolor: None
+lines.markeredgewidth: 1
+lines.markersize: 8
+lines.solid_capstyle: butt
+
+legend.fancybox: true
+
+axes.prop_cycle: cycler('color', ['000000', '1b6989', 'e69f00', '009e73', 'f0e442','50b4e9', 'd55e00', 'cc79a7'])
+axes.facecolor: ffffff #fffff8
+axes.axisbelow: true
+axes.spines.top : False
+axes.spines.right : False
+axes.labelsize: large
+axes.titlesize: x-large
+axes.grid: false
+axes.linewidth: 1
+
+hist.bins: auto
+
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+
+font.family: serif
+font.serif: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, DejaVu Serif
+font.size: 14
+
+figure.constrained_layout.use: True
+figure.facecolor: ffffff # fffff8
+figure.figsize: 10.0, 7.0
+
+path.simplify: True
+path.simplify_threshold: 1.0
+agg.path.chunksize: 10000
